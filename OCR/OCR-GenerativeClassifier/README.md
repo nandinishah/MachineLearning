@@ -4,7 +4,9 @@ OPTICAL CHARACTER RECOGNITION (OCR)
 Classifier Generic -
 **************************************************************************************
 Data: drawn from a distribution over R2 × {0, 1, 2} where the class prior is uniform, and the class conditional densities are bivariate Gaussians N ((0, 2), I), N ((0, 0), I), N ((2, 0), 0.25I).
+
 Model: train1a.m trains the data (data and labels) to get a classifer, and evaluates it on the test data (testdata and testlabels) using test1a.m
+
 Output: Train error = 14%, Test error = 15.8%
 
 
